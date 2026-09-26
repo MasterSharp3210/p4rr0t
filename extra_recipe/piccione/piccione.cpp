@@ -343,7 +343,7 @@ int main(int argc, char* argv[]) {
     bool connected = false;
 
     while (true) {
-        // FIX CRITICO: Bisogna reimpostare la dimensione della struttura ad ogni ciclo di recvfrom
+        // CRITIC FIX: Bisogna reimpostare la dimensione della struttura ad ogni ciclo di recvfrom
         int clientAddrLen = sizeof(clientAddr);
 
         int bytesRecv = recvfrom(sockfd, (char*)&pkt, sizeof(pkt), 0, (sockaddr*)&clientAddr, &clientAddrLen);
