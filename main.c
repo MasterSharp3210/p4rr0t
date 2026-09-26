@@ -4,7 +4,7 @@ void PatchExplorer();
 void KillProcess(const char *processName);
 void InjectDLL(const char *processName, const char *dllName);
 
-int main() {
+int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine, int nCmdShow) {
     const char *dllName = "p4rr0t_dll.dll";
     char processName[256];
 
