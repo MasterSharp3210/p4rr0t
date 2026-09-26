@@ -1,4 +1,4 @@
-# p4rr0t
+# p4rr0t bypass?
 ![P4rr0t](parrot.png)
 A multi exploit process to self-kill management softwares
 
